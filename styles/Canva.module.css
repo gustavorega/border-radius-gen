@@ -38,7 +38,22 @@
   max-width: 400px;
 }
 
+.copyBtn {
+  margin-top: 40px;
+  text-align: center;
+}
 
+.copyBtn a {
+  
+  border: 1px solid grey;
+  padding: 6px 20px;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.copyBtn a:hover {
+  background-color: cadetblue;
+}
 
 .subject {
   border: 2px solid rgb(20, 5, 47);
@@ -49,6 +64,7 @@
 }
 .subject div{
   /* background-color: aliceblue; */
+  width: 80%;
   color: rgb(20, 5, 47);
   margin: 0;
   position: absolute;
