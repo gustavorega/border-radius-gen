@@ -14,9 +14,11 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to B<span>order </span>R<span>adius </span>G<span>enerator </span>!
+          {/* <p>Welcome to</p> */}
+          <p>B<span>order </span>R<span>adius </span>G<span>enerator </span></p>
         </h1>
         <Canva/>
+        
         
       </main>
 

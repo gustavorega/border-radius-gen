@@ -1,7 +1,8 @@
 .container {
-  padding: 0 2rem;
+  /* padding: 0 2rem; */
   background-color: rgb(34, 32, 60);
   color: antiquewhite;
+  margin: auto;
 }
 
 
@@ -11,13 +12,17 @@
 }
 
 .main {
-  min-height: 100vh;
-  padding: 4rem 0;
+  /* min-height: 100vh; */
+  /* padding: 4rem 0; */
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.main h1 {
+  line-height: 0px;
 }
 
 .footer {
@@ -38,7 +43,7 @@
 
 .title span {
   color: #25a401;
-  font-size: x-small;
+  font-size: small;
 }
 
 .title a {
@@ -56,7 +61,7 @@
 .title {
   margin: 0;
   line-height: 1.15;
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 .title,
