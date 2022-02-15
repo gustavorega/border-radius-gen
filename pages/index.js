@@ -10,6 +10,8 @@ export default function Home() {
         <title>Border Radius Generator</title>
         <meta name="description" content="Border Radius Generator for CSS" />
         <link rel="icon" href="/favicon.ico" />
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9576444366514980"
+     crossOrigin="anonymous"></script>
       </Head>
 
       <main className={styles.main}>
