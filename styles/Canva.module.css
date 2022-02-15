@@ -1,0 +1,61 @@
+
+.main {
+  padding: 20px;
+  position: relative;
+  /* background-color: white; */
+  width: 100%;
+  /* display: flex; */
+  justify-content:center;
+}
+
+.inputs {
+  /* background-color: blueviolet; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.borderSet{
+  /* position: relative; */
+  /* background-color: blue; */
+  font-size: large;
+  padding: 10px;
+  width: 80px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  margin: 10px 0px;
+}
+
+.canva {
+  margin: auto;
+  padding: 20px;
+  background-color: rgb(165, 146, 146);
+  aspect-ratio: 1;
+  border-radius: 2px;
+  min-width: 200px;
+  max-width: 400px;
+}
+
+
+
+.subject {
+  border: 2px solid rgb(20, 5, 47);
+  /* background-color: brown; */
+  width: 100%;
+  aspect-ratio: 1;
+  position: relative;
+}
+.subject div{
+  /* background-color: aliceblue; */
+  color: rgb(20, 5, 47);
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  font-size: large;
+
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+
