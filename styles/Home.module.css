@@ -1,6 +1,6 @@
 .container {
   /* padding: 0 2rem; */
-  background-color: rgb(34, 32, 60);
+  background-color: #22203c;
   color: antiquewhite;
   margin: auto;
 }
@@ -26,16 +26,16 @@
 }
 
 .footer {
-  position: absolute;
+  position: relative;
   bottom: 0;
   width: 100vw;
   /* display: flex; */
   flex: 1;
-  padding: 2rem 0;
+  padding: 12px 0;
   border-top: 1px solid #eaeaea;
   justify-content: center;
   align-items: center;
-  background-color: #0070f3;
+  background-color: #3c3a5a;
 }
 
 .footer a {
